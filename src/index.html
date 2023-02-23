@@ -4,12 +4,29 @@
     <meta charset="UTF-8" />
     <!-- PON UN FAVICON!!! -->
     <link rel="icon" type="image/svg+xml" href="" />
+    <script src="https://kit.fontawesome.com/1b394824e9.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CAMBIA EL TITLE!!! -->
     <title>Vite Template</title>
   </head>
   <body>
-    <img src="assets/images/anubis.jpg" width="500px" alt="anubis" />
-    <script type="module" src="./index.js"></script>
+    <nav class="nav">
+      <ul id="icons" class="nav__ul">
+        <li  class="nav__li nav__li--active" data-color="rgb(245, 179, 58)" ><i class="fa-solid fa-bars"></i></li>
+        <li class="nav__li" data-color="pink"><i class="fa-solid fa-inbox"></i></li>
+        <li class="nav__li" data-color="rgb(92, 56, 253)"><i class="fa-solid fa-layer-group"></i></li>
+        <li class="nav__li" data-color="rgb(226, 218, 55)" ><i class="fa-solid fa-table"></i></li>
+        <li class="nav__li" data-color="rgb(107, 232, 201)"><i class="fa-solid fa-image"></i></li>
+        <div id="selected" class="nav__selected-icon"></div>
+      </ul>
+      <div class="nav__text-container">
+        <p class="nav__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores aperiam deserunt. Atque at obcaecati eveniet in voluptate veniam velit enim, ratione quis. Similique magni facere, aut dolorem temporibus velit!</p>
+        <p class="nav__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores aperiam deserunt. Atque at obcaecati eveniet in voluptate veniam velit enim, ratione quis. Similique magni facere, aut dolorem temporibus velit!</p>
+        <p class="nav__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores aperiam deserunt. Atque at obcaecati eveniet in voluptate veniam velit enim, ratione quis. Similique magni facere, aut dolorem temporibus velit!</p>
+        <p class="nav__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores aperiam deserunt. Atque at obcaecati eveniet in voluptate veniam velit enim, ratione quis. Similique magni facere, aut dolorem temporibus velit!</p>
+        <p class="nav__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores aperiam deserunt. Atque at obcaecati eveniet in voluptate veniam velit enim, ratione quis. Similique magni facere, aut dolorem temporibus velit!</p>
+      </div>
+    </nav>
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>
